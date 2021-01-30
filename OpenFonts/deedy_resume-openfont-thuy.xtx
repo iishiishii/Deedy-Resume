@@ -47,14 +47,9 @@
 
 \documentclass[]{deedy-resume-openfont}
 \usepackage{fancyhdr}
-\usepackage{setspace}
-\addtolength{\topmargin}{0.2in}
-\renewcommand{\headrulewidth}{0pt}
  
 \pagestyle{fancy}
 \fancyhf{}
-
-\renewcommand{\baselinestretch}{1.2}
  
 \begin{document}
 
@@ -70,7 +65,8 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Dao}{Luna}{ \urlstyle{same}\href{http://github.com/iishiishii}{github.com/iishiishii} | +6591893071 | \href{mailto:thanhthuy666666@gmail.com}{thanhthuy666666@gmail.com} 
+\namesection{Luna}{Dao}{ \urlstyle{same}\href{https://github.com/iishiishii}{github.com/iishiishii}| \\
+\href{mailto:thanhthuy666666@gmail.com}{thanhthuy666666@gmail.com} | 9189-3071 |
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -88,13 +84,8 @@
 \section{Education} 
 
 \subsection{Ruhr Bochum University}
-\descript{MSc in Computational Engineering}
-\location{2021 - 2023 | Bochum, Germany}
-\sectionsep
-
-\subsection{École Polytechnique Fédérale de Lausanne}
-\descript{Digital Signal Processing Specialization}
-\location{2020 - Recent | Coursera}
+\descript{MEng in Computational Engineering}
+\location{2020 | Bochum, Germany}
 \sectionsep
 
 \subsection{Kyushu University}
@@ -108,23 +99,10 @@
 
 \section{Coursework}
 \subsection{Coursera}
-Machine Learning \\
-Neural Networks and Deep Learning 
+Deep Learning Specialization \\
+Deep Learning Tensorflow Developer Certificate \\
+Tensorflow Data and Deployment Specialization \\
 \sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SIDE PROJECTS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Side Projects}
-\subsection{Zulip}
-Created a chat bot reacting and replied to particular messages.
-\sectionsep
-
-\subsection{Path finder}
-Developed a shortest path finder based on Dijkstra's algorithm.
-\sectionsep
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
@@ -132,18 +110,17 @@ Developed a shortest path finder based on Dijkstra's algorithm.
 
 \section{Skills}
 \subsection{Programming}
-\location{Over 2000 lines:}
+\location{Over 1000 lines:}
 C \textbullet{} C++ \textbullet{} CSS \textbullet{} Matlab \textbullet{} Python \\
-
 \location{Familiar:}
-HTML \textbullet{} Dart \textbullet{} LaTeX \textbullet{} Javascript \textbullet{} \\
-Linux
+HTML \textbullet{} Dart \textbullet{} LaTeX \textbullet{} Javascript
 \sectionsep
 
 \subsection{Language}
 Vietnamese: Native \\
 English: IELTS 7.5 \\
-Japanese: JLPT N2 \\\
+Japanese: JLPT N2 \\
+Chinese: Beginner
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -164,41 +141,53 @@ Japanese: JLPT N2 \\\
 \runsubsection{Trilogy Technologies Pte. Ltd}
 \descript{| Software Engineer }
 \location{Oct 2020 - Present | Singapore}
-\vspace{\topsep} 	% Hacky fix for awkward extra vertical space
+\vspace{\topsep}
 \begin{tightemize}
-\item Lead and develop Bluetooth smart watch to measure physiological parameters.	
-\item Implement Digital Signal Processing algorithm to derive the values from sensors with different serial communication protocols.
-\item Contribute to develop a gateway for multiple protocols including bluetooth, wifi, zigbee, lora.
-\item Create the MQTT platform to store and visualize the data from smart watch.
-\item Experience with schematics, component data sheet and electronic test equipment.
+\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
+\item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
+\item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Kyushu University}
+\runsubsection{Coursera}
+\descript{| KPCB Fellow + Software Engineering Intern }
+\location{June 2014 – Sep 2014 | Mountain View, CA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
+\item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
+\item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Google}
+\descript{| Software Engineering Intern }
+\location{May 2013 – Aug 2013 | Mountain View, CA}
+\begin{tightemize}
+\item Worked on the YouTube Captions team, in Javascript and Python to plan, to design and develop the full stack to add and edit Automatic Speech Recognition captions. In production.
+\item Created a backbone.js-like framework for the Captions editor.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Phabricator}
+\descript{| Open Source Contributor \& Team Leader}
+\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+\begin{tightemize}
+\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.
+\item I created the Meme generator and more in PHP and Shell.
+\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+\runsubsection{Geo-disaster Prevention Lab}
 \descript{| Undergraduate student}
-\location{Oct 2018 – Aug 2019 | Fukuoka, Japan}
-\begin{tightemize}
-\item Worked with \textbf{\href{https://kyushu-u.pure.elsevier.com/en/persons/guangqi-chen}{Guangqi Chen}} to classify Pulse-like ground motion using Matlab to learn the directional feature of slope failure by Discontinuous Deformation Analysis (DDA).  
-\item Modified the DDA algorithm to be accurate on complicated models.
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Nippon Koei Research and Development Center}
-\descript{| Research Intern}
-\location{Sep 2018 – Sep 2018 | Ibaraki, Japan}
-\begin{tightemize}
-\item Collect real data for the simulation model. 
-\item Built a simulation model and ran analysis using PFC 2D.
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Yachiyo Engineering Co., LTD}
-\descript{| Engineering Intern }
-\location{Aug 2018 – Aug 2018 | Haiphong, Vietnam}
-\begin{tightemize}
-\item Studied the technical drawings, retaining wall calculation and its construction process.
-\item Prepared and participated in weekly meetings on the process among the stakeholders.
-\end{tightemize}
+\location{Oct 2018 – Aug 2019 | Japan}
+Worked with \textbf{\href{https://kyushu-u.pure.elsevier.com/en/persons/guangqi-chen}{Guangqi Chen}} to classify Pulse-like ground motion using Matlab to learn the directional feature of slope failure by Discontinuous Deformation Analysis.  
 \sectionsep
 
 
@@ -208,21 +197,19 @@ Japanese: JLPT N2 \\\
 
 \section{Awards} 
 \begin{tabular}{rll}
-2015-2019	     & Monbukagakusho MEXT Scholarship
+2015-2019	     & Monbukagakusho MEXT Scholarship\\
 \end{tabular}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PUBLICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Publications} 
-%\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
-\vspace{\topsep}
-\vspace{\topsep}
+\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
 \bibliographystyle{abbrv}
 \bibliography{publications}
 \nocite{*}
-
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}
